@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/hsse
+requires: local_channel
+name: Wysiwyg Status
+photo: icon:pencil-square-o
+categories: Social
+desc: WYSIWYG status editor.

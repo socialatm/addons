@@ -1,0 +1,115 @@
+<?php
+
+// wrapper for configuration mgmt
+class SocialAuthConfig {
+
+	// prevents instantiation
+	private function __construct() {}
+
+<<<<<<< HEAD
+	// cache config to save DB requests
+	static private $synced = false;
+	static private $config;
+
+=======
+>>>>>>> 6d362725cafdc646e1dcf33bfab2ee4733cf3e4b
+	static private $supported_providers = [
+		'Google',
+		'Facebook',
+		'Twitter'
+	];
+
+	static private function createPrefix($provider) {
+		return 'socialauth_'.$provider.'_';
+	}
+
+
+	static public function getConfig() {
+
+<<<<<<< HEAD
+		if (self::$synced) 
+			return self::$config;
+	
+=======
+	
+		// TODO read clientID & secret from Social auth app config
+		$myclientID = "163564402172-qpef1pl7u3h1a74htjls3tbu943fsehp.apps.googleusercontent.com";
+		$myclientSecret = "IPhTydFSJkNYTYroYchhBtv5";
+
+>>>>>>> 6d362725cafdc646e1dcf33bfab2ee4733cf3e4b
+		// TODO limit scope to email only
+
+		// TODO build this config dynamically based on SocialAuth App configuration
+		$hybridauthconfig = [
+			'callback' => z_root() . '/socialauthsignin.php',
+			'providers' => [
+				'Google' => [
+					'enabled' => true,
+					'keys' => [
+						'key' => $myclientID,
+						'secret' => $myclientSecret,
+					],
+				],
+			],
+		];
+/*
+		foreach(self::$supported_providers as $provider) {
+
+			$prefix = self::createPrefix($provider);
+
+			$enabled = get_config($prefix.'enabled');
+			$key = get_config($prefix.'key');
+			$secret = get_config($prefix.'secret');
+
+			$r = [
+				$provider => [
+					'enabled' => $enabled,
+					'keys' => [
+						'key' => $key,
+						'secret' => $secret,
+					],
+				],
+			];
+<<<<<<< HEAD
+
+			$hybridauthconfig['providers'][] = $r;
+		}
+ */
+
+		self::$config = $hybridauthconfig;
+		self::$synced = true;
+
+=======
+
+			$hybridauthconfig['providers'][] = $r;
+		}
+ */
+>>>>>>> 6d362725cafdc646e1dcf33bfab2ee4733cf3e4b
+		return $hybridauthconfig;
+	}
+
+	// try to save a configuration field related to socialauth app
+	// If it's not a social auth app configuration field, it fails silently
+/*	static public function save($field, $value) {
+		
+		foreach(self::$supported_providers as $provider) {
+			$prefix = self::createPrefix($provider);
+			// TODO php matching start of string
+			if (start of $field matches $provider) {
+				$postfixes = ['enabled', 'key', 'secret'];
+				foreach($postfixes as $postfix) {
+					if ($field === $prefix.$postfix) {
+						logger('Setting config '. $field .' to value '. $value, LOGGER_DEBUG);
+						set_config($field, $value);
+<<<<<<< HEAD
+					self::$synced = false;
+=======
+>>>>>>> 6d362725cafdc646e1dcf33bfab2ee4733cf3e4b
+					}
+				}
+			}
+
+		}
+	}
+ */
+}

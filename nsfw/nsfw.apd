@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/nsfw
+requires: local_channel
+name: NSFW
+photo: icon:filter
+categories: Networking
+desc: Collapse content that contains predefined words.

@@ -1,0 +1,11 @@
+[region=aside]
+[widget=profile][/widget]
+[widget=cards_categories][/widget]
+[/region]
+[region=content]
+$content
+[/region]
+[region=right_aside]
+[widget=notifications][/widget]
+[widget=newmember][/widget]
+[/region]

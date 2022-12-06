@@ -1,0 +1,7 @@
+version: 0.1.1
+url: $baseurl/totp, $baseurl/settings/totp
+requires: local_channel
+name: TOTP
+photo: icon:mobile-phone
+categories: Authentication
+desc: TOTP two-factor authentication.

@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/content_import
+requires: local_channel
+name: Content Import
+photo: icon:folder
+categories: Networking
+desc: A tool to copy existing content and file storage to a cloned/copied channel.

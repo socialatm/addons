@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/superblock
+requires: local_channel
+name: Superblock
+photo: icon:ban
+categories: Networking
+desc: Block channels.

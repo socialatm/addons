@@ -1,0 +1,9 @@
+.sceditor-container {
+	border: 0;
+	border-radius: 0;
+	width: 100% !important;
+}
+
+div.sceditor-toolbar {
+	border-radius: 0;
+}

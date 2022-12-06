@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/wppost
+requires: local_channel
+name: Wordpress Post
+photo: icon:wordpress
+categories: Networking
+desc: Post to WordPress or anything else which uses the wordpress XMLRPC API.

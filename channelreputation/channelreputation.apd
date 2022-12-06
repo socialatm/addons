@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/channelreputation/$nick
+requires: local_channel
+name: Channel Reputation
+photo: icon:line-chart
+categories: Networking
+desc: Reputation system for community channels.

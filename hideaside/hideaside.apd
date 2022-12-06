@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/hideaside
+requires: local_channel
+name: Hide Aside
+photo: icon:eraser
+desc: Fade out aside areas after a while when using endless scroll
+

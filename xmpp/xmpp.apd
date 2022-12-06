@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/xmpp
+requires: local_channel
+name: XMPP
+photo: icon:xmpp
+categories: Networking
+

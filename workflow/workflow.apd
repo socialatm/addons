@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/workflow
+requires: local_channel
+name: Workflow / Issue Tracking
+photo: icon:list-ol
+categories: Productivity
+desc: Workflow - Item Tracking.

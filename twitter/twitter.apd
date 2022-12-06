@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/twitter
+requires: local_channel
+name: Twitter Crosspost Connector
+photo: icon:twitter
+categories: Networking
+desc: Relay public posts to Twitter.

@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/fediwordle
+requires: local_channel
+name: Fediwordle
+photo: icon:question-circle
+categories: Gaming
+desc: A distributed word game inspired by wordle.

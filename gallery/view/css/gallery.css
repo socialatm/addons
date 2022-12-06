@@ -1,0 +1,35 @@
+.wall-photo-item {
+	background-color: var(--bs-body-bg);
+	border-top-left-radius: var(--bs-border-radius);
+	border-top-right-radius: var(--bs-border-radius);
+}
+
+.gallery-wrapper a img,
+.gallery-wrapper div img {
+	border-radius: 0;
+}
+
+.jg-more-count {
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	opacity: 1 !important;
+	padding-right: .5rem !important;
+	font-weight: bold;
+	font-size: 1rem;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.gallery-wrapper {
+	border-top-left-radius: var(--bs-border-radius);
+	border-top-right-radius: var(--bs-border-radius);
+}
+
+.gallery-wrapper.gallery-bg-grid {
+	background-size: 100% 100%;
+	background-image:
+		linear-gradient(to right, var(--bs-border-color) 1px, transparent 1px),
+		linear-gradient(to bottom, var(--bs-border-color) 1px, transparent 1px);
+	background-position: .9rem .9rem;
+	background-size: 1rem 1rem;
+}

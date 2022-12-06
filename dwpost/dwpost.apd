@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/dwpost
+requires: local_channel
+name: Dreamwidth Crosspost Connector
+photo: icon:send
+categories: Networking
+desc: Relay public posts to Dreamwidth.

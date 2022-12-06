@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/authchoose
+requires: local_channel
+name: Authchoose
+photo: icon:cog
+categories: Tools
+desc: Allow magic authentication only to websites of your immediate connections.

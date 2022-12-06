@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/rainbowtag
+requires: local_channel
+name: Rainbow Tag
+photo: icon:tag
+categories: Appearance
+desc: Add some colour to tag clouds.

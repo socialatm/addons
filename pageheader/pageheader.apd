@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/pageheader
+requires: admin
+name: Page Header
+photo: icon:header
+desc: Inserts a page header.
+

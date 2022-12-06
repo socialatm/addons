@@ -1,0 +1,6 @@
+version: 2
+url: $baseurl/fuzzloc
+requires: local_channel
+name: Fuzzy Location
+photo: icon:map-marker
+desc: Blur your precise location if your channel uses browser location mapping.

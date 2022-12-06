@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/redred
+requires: local_channel
+name: Hubzilla Crosspost Connector
+photo: icon:hubzilla
+categories: Networking
+desc: Relay public postings to another Hubzilla channel.

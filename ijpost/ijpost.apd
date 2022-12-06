@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/ijpost
+requires: local_channel
+name: Insane Journal Crosspost Connector
+photo: icon:meh-o
+categories: Networking
+

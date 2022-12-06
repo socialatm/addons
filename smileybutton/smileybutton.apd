@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/smileybutton
+requires: local_channel
+name: Smileybutton
+photo: icon:smile-o
+desc: Adds a smileybutton to the jot editor.
+

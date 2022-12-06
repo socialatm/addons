@@ -1,0 +1,7 @@
+version: 2.09
+url: $baseurl/flashcards/$nick
+requires: local_channel
+name: Flashcards
+photo: icon:graduation-cap
+categories: Productivity
+desc: An access controlled flashcard software that uses spaced repetition as a learning technique.

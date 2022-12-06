@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/libertree
+requires: local_channel
+name: Libertree Crosspost Connector
+photo: icon:tree
+categories: Networking
+desc: Relay public posts to Libertree.

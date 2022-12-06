@@ -1,0 +1,8 @@
+version: 2
+url: $baseurl/nsabait
+requires: local_channel
+name: NSA Bait
+photo: icon:dot-circle-o
+desc: Make yourself a political target.
+
+

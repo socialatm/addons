@@ -1,0 +1,6 @@
+version: 1
+url: $baseurl/visage
+requires: public_profile
+name: Visitors
+photo: icon:eye
+desc: Who viewed my channel/profile.

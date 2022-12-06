@@ -1,0 +1,7 @@
+version: 1
+url: $baseurl/photocache
+requires: local_channel
+name: Photo Cache
+photo: icon:hdd-o
+categories: Networking
+desc: Saves a copy of images from external sites locally to increase your anonymity in the web.

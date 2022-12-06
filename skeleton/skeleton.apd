@@ -1,0 +1,6 @@
+version: 2
+url: $baseurl/skeleton
+requires: local_channel
+name: Skeleton
+photo: icon:cog
+desc: A skeleton for addon developers, you can copy/paste.

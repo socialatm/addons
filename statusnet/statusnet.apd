@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/statusnet
+requires: local_channel
+name: GNU-Social Crosspost Connector
+photo: icon:gnu-social
+categories: Networking
+desc: Relay public postings to a connected GNU social account (formerly StatusNet).

@@ -1,0 +1,7 @@
+version: 2
+url: $baseurl/rtof
+requires: local_channel
+name: Friendica Crosspost Connector
+photo: icon:friendica
+categories: Networking
+desc: Relay public postings to a connected Friendica account.

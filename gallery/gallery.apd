@@ -1,0 +1,6 @@
+version: 2
+requires: local_channel
+url: $baseurl/gallery/$nick
+name: Gallery
+photo: icon:photo
+desc: This app provides a gallery view for your photo albums and conversations.

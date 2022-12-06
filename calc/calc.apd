@@ -1,0 +1,5 @@
+version: 1
+url: $baseurl/calc
+name: Calculator
+photo: $baseurl/addon/calc/calc.png
+desc: A simple calculator app.
