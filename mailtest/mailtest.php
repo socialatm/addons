@@ -42,7 +42,7 @@ function mailtest_post(&$App) {
 		dbesc(get_config('system','admin_email'))
 	);
 
-	$arr = get_defined_vars();
+	$arr = get_config('system','admin_email');
 
 	print("<pre>".print_r($arr,true)."</pre>");
 	exit;
