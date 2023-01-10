@@ -46,11 +46,6 @@ function mailtest_post(&$App) {
 		dbesc(get_config('system','admin_email'))
 	);
 
-	$arr = get_defined_vars();
-
-	print("<pre>".print_r($arr,true)."</pre>");
-	
-
 	if(! $recips) {
 		notice( t('No recipients found.') . EOL);
 		return;
