@@ -18,7 +18,7 @@ function mailtest_plugin_admin(&$o) {
 
 }
 
-function mailtest_post(&$a) {
+function mailtest_post(&$App) {
 	if(! is_site_admin())
 		return;
 
