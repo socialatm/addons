@@ -49,7 +49,7 @@ function mailtest_post(&$App) {
 	$arr = get_defined_vars();
 
 	print("<pre>".print_r($arr,true)."</pre>");
-	exit;
+	
 
 	if(! $recips) {
 		notice( t('No recipients found.') . EOL);
@@ -62,8 +62,7 @@ function mailtest_post(&$App) {
 			'fromName'             => $from_name,
 			'fromEmail'            => $from_email,
 			'replyTo'              => $reply_to,
-		//	'toEmail'              => $recip['account_email'],
-			'toEmail'              => 'test@hubzilla.social',
+			'toEmail'              => $recip['reg_email'],
 			'messageSubject'       => $subject,
 			'htmlVersion'          => $htmlversion,
 			'textVersion'          => $textversion
