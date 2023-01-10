@@ -12,15 +12,11 @@
 
 function mailtest_module() {}
 
-
-
 function mailtest_plugin_admin(&$o) {
 
 	$o = '<div></div>&nbsp;&nbsp;&nbsp;&nbsp;<a href="' . z_root() . '/mailtest">' . t('Send test email') . '</a></br/>';
 
 }
-
-
 
 function mailtest_post(&$a) {
 	if(! is_site_admin())
@@ -45,6 +41,8 @@ function mailtest_post(&$a) {
 	$recips = q("select account_email from account where account_email = '%s' ",
 		dbesc(get_config('system','admin_email'))
 	);
+
+	$recips = "test@hubzilla.social";
 
 	if(! $recips) {
 		notice( t('No recipients found.') . EOL);
@@ -99,7 +97,5 @@ function mailtest_content(&$a) {
 		'$reply_to'   => $params['replyTo'],
 		'$submit'     => t('Submit')
 	));
-
 	return $o;
-
 }
