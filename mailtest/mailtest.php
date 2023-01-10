@@ -42,7 +42,11 @@ function mailtest_post(&$App) {
 		dbesc(get_config('system','admin_email'))
 	);
 
-	$arr = get_config('system','admin_email');
+	$recips = q("SELECT `reg_email` FROM `register` WHERE `reg_email` = '%s' ",
+		dbesc(get_config('system','admin_email'))
+	);
+
+	$arr = get_defined_vars();
 
 	print("<pre>".print_r($arr,true)."</pre>");
 	exit;
