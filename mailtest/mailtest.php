@@ -42,8 +42,6 @@ function mailtest_post(&$a) {
 		dbesc(get_config('system','admin_email'))
 	);
 
-	$recips = "test@hubzilla.social";
-
 	if(! $recips) {
 		notice( t('No recipients found.') . EOL);
 		return;
@@ -55,7 +53,8 @@ function mailtest_post(&$a) {
 			'fromName'             => $from_name,
 			'fromEmail'            => $from_email,
 			'replyTo'              => $reply_to,
-			'toEmail'              => $recip['account_email'],
+		//	'toEmail'              => $recip['account_email'],
+			'toEmail'              => 'test@hubzilla.social',
 			'messageSubject'       => $subject,
 			'htmlVersion'          => $htmlversion,
 			'textVersion'          => $textversion
